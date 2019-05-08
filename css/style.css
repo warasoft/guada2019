@@ -85,9 +85,11 @@
       overflow: hidden;
     }
 
-
-}
-
+  @media screen and (max-width: 768px) {
+  .home {
+   padding-top: 100px;
+  }
+    }
 /*--QUIENES SOMOS---------------------------------------------------*/
 .somos {
   padding-top: 100px;
