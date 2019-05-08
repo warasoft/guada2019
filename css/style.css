@@ -81,20 +81,9 @@
   padding-bottom: 100px;
 }
 
-/*--VARIEDADES-----------------------------------------------------------*/
-.variedades {
-  background: url(../img/11.jpg);
-  background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #333;
-  color: #fff;
-}
+/* GALERY---------------------------------------------------*/
+.galeria {
 
-.variedades img {
-  background-image: url(../img/10.jpg);
-  width: 320px;
-  height: 260px;
 }
 
 
@@ -171,5 +160,5 @@
 
 .parrafos {
   font-family: "Walkway UltraBold";
-  font-size: 30px;
+  font-size: 23px;
 }
