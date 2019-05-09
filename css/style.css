@@ -75,15 +75,22 @@
 	padding-top: 60px;
   }
     }
-/*--QUIENES SOMOS---------------------------------------------------*/
-.somos {
+    /*--conoceme---------------------------------------------------*/
+.somos{
   padding-top: 100px;
   padding-bottom: 100px;
+}
+/*--QUIENES SOMOS---------------------------------------------------*/
+.somos2{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #DFFE9F;
 }
 
 /* GALERY---------------------------------------------------*/
 .galeria {
-
+ padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 
