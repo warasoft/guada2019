@@ -754,5 +754,6 @@ body {
 
 .txt {
   display: block;
+  font-weight: bolder;
 }
 

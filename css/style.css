@@ -17,14 +17,15 @@
   z-index: 30;
 }
 
-
+.navbar-light{
+background: rgba(255,255,255,.60);
+}
 .menu.navbar_fixed {
   position: fixed;
   width: 100%;
   top: -70px;
   left: 0;
   right: 0;
-  background: rgba(255,255,255,.71);
   -webkit-transform: translateY(70px);
   -ms-transform: translateY(70px);
   transform: translateY(70px);
@@ -72,10 +73,11 @@
 
   @media screen and (max-width: 768px) {
   .home {
-	padding-top: 60px;
+	padding-top: 80px;
   }
     }
-    /*--conoceme---------------------------------------------------*/
+
+/*--conoceme---------------------------------------------------*/
 .somos{
   padding-top: 100px;
   padding-bottom: 100px;
@@ -84,7 +86,7 @@
 .somos2{
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #DFFE9F;
+  background-color: #00BFDF;
 }
 
 /* GALERY---------------------------------------------------*/
@@ -169,3 +171,9 @@
   font-family: "Walkway UltraBold";
   font-size: 23px;
 }
+
+@media screen and (max-width: 768px) {
+  .parrafos {
+    font-size: 15px;
+  }
+  }
