@@ -121,7 +121,7 @@
 @media screen and (max-width: 768px) {
   .contacto {
     background: url(../img/contact-small.jpg) fixed no-repeat 50% 50%;
-    background-size: cover;
+
   }
   }
 
@@ -171,6 +171,7 @@
 .titulo h2{
   font-family: "FFF Tusj";
   font-size: 60px;
+  border-bottom: 2px solid #47C6C6;
 }
 
 @media screen and (max-width: 768px) {
@@ -190,3 +191,28 @@
   }
   }
 
+
+
+
+.site__title {
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+    font-size: 23px;
+}
+
+/*-----------------------------------*\
+  $ANIMATIONS
+\*-----------------------------------*/
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
