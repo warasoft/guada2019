@@ -189,15 +189,13 @@
   .parrafos {
     font-size: 12px;
   }
-  .site__title {
-    font-size: 12px;
-  }
     }
 
 
 
 
 
+/*
 .site__title {
     color: #f35626;
     background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
@@ -206,8 +204,7 @@
     -webkit-animation: hue 60s infinite linear;
     font-size: 23px;
 }
-
-/*-----------------------------------*\
+-----------------------------------*\
   $ANIMATIONS
 \*-----------------------------------*/
 
@@ -219,4 +216,4 @@
   to {
     -webkit-filter: hue-rotate(-360deg);
   }
-}
+}*/
