@@ -187,9 +187,13 @@
 
 @media screen and (max-width: 768px) {
   .parrafos {
-    font-size: 15px;
+    font-size: 12px;
   }
+  .site__title {
+    font-size: 12px;
   }
+    }
+
 
 
 
